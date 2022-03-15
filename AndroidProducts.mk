@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tissot.mk
+    $(LOCAL_DIR)/aosp_tissot.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_tissot-user \
+    aosp_tissot-userdebug \
+    aosp_tissot-eng
